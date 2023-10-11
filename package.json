@@ -1,0 +1,25 @@
+{
+  "name": "nodedozero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node --watch --no-warnings server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.24.0",
+    "postgres": "^3.4.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "eslint": "^8.51.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1"
+  }
+}
